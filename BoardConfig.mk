@@ -28,7 +28,7 @@ include device/samsung/tuna/BoardConfig.mk
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 30691799040
 
 # Use/add toro-specific variants
-TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_toro
+# TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_toro
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/toro
 
 # on toro boards we need to apply a special adaptive filter
