@@ -41,6 +41,11 @@ $(call inherit-product, device/samsung/toro/device_vzw.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toro
 PRODUCT_DEVICE := toro
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Toro
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Galaxy Nexus
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=mysid \
+    BUILD_FINGERPRINT="google/mysid/toro:4.3/JSS15J/398337:user/release-keys" \
+    PRIVATE_BUILD_DESC="mysid-user 4.3 JSS15J 398337 release-keys"
