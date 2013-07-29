@@ -30,3 +30,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toro/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/FTL/ftl.mk)
+
